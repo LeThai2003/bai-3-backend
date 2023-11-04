@@ -1,0 +1,233 @@
+
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-chat
+{
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+}
+
+.box-chat_header
+{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.box-chat_body
+{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.box-chat_footer
+{
+    padding: 10px;
+}
+
+.chat-avatar
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: blue;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.chat-name
+{
+    display: inline-block;
+    font-weight: 700;
+}
+
+.chat-right
+{
+    width: 220px;
+    margin: 12px 0;
+    background: blue;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: #fff;
+    /* margin-left: 38px; */
+    margin-left: auto;
+    font-size: 13px;
+}
+
+.chat-left
+{
+    width: 220px;
+    margin: 12px 0;
+    background: #dddddd74;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.box-chat_footer input
+{
+    border-radius: 15px;
+    border: 1px solid #DDDDDD;
+    padding: 5px 10px;
+    width: 75%;
+}
+
+.box-chat_footer input:focus-visible
+{
+    border: 1px solid transparent;
+}
+
+.box-chat_footer button
+{
+    width: 35px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: blue;
+    border: transparent;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.box
+{
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    margin: 0px 5px 10px 0px;
+    /* width: calc(100% / 6 - 30px); */
+    width: 200px;
+    padding: 10px;
+}
+
+.box .box-image
+{
+    width: 100%;
+    height: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+}
+
+.box .box-image img
+{
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+}
+
+.box .box-content
+{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* @media(max-width: 1192px)
+{
+    .box
+    {
+        width: calc(100% / 5 - 30px);
+    }
+}
+@media(max-width: 992px)
+{
+    .box
+    {
+        width: calc(100% / 4 - 30px);
+    }
+}
+
+@media(max-width: 768px)
+{
+    .box
+    {
+        width: calc(100% / 3 - 30px);
+    }
+}
+
+@media(max-width: 576px)
+{
+    .box
+    {
+        width: calc(100% / 2 - 30px);
+    }
+} */
+
+
+
+/* Câu 3 */
+.product-item
+{
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.product-item .product-image
+{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.product-item .product-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-item h3
+{
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.product-item p
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.product-item .product-newPrice
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+
+.product-item .product-oldPrice
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.product-item .product-disPer
+{
+    color: purple;
+    font-weight: 600;
+    font-size: 18px;
+}
